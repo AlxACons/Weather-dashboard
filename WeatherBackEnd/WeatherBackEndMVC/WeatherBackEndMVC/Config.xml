@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+
+  <Requests>
+    <WeatherApi>https://api.weatherbit.io/v2.0/forecast/daily?key=b487e806a9b64608a508dcb3e7b0cda6</WeatherApi>
+  </Requests>
+
+  <WeatherCity>
+    
+    <Obregon>
+      <Id>1</Id>
+      <Lat>27.487436799999998</Lat>
+      <Lon>-109.94483199999999</Lon>
+    </Obregon>
+
+    <Hermosillo>
+      <Id>2</Id>
+      <Lat>29.0729673</Lat>
+      <Lon>-110.9559192</Lon>
+    </Hermosillo>
+
+    <Navojoa>
+      <Id>3</Id>
+      <Lat>27.0727573</Lat>
+      <Lon>-109.4437493</Lon>
+    </Navojoa>
+
+
+    <Nogales>
+      <Id>4</Id>
+      <Lat>31.3011855</Lat>
+      <Lon>-110.9381047</Lon>
+    </Nogales>
+
+  </WeatherCity>
+
+  <TemperatureScales>
+    <Scale>
+      <Id>1</Id>
+      <Name>Celcius</Name>
+      <Parameter>M</Parameter>
+    </Scale>
+
+    <Scale>
+      <Id>2</Id>
+      <Name>Kelvin</Name>
+      <Parameter>S</Parameter>
+    </Scale>
+
+    <Scale>
+      <Id>3</Id>
+      <Name>Fahrenheit</Name>
+      <Parameter>I</Parameter>
+    </Scale>
+  </TemperatureScales>
+  
+
+</Config>
